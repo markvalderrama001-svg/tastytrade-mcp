@@ -1,0 +1,3 @@
+tastytrade>=12.0
+python-dotenv>=1.0
+mcp[cli]>=1.2

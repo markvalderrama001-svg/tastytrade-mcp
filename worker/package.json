@@ -1,0 +1,24 @@
+{
+  "name": "tastytrade-mcp-worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-file Cloudflare Worker exposing a Tastytrade account as an MCP server, with dry-run-first order safety.",
+  "type": "module",
+  "author": "Mark Valderrama",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markvalderrama001-svg/tastytrade-mcp.git",
+    "directory": "worker"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node --check tastytrade-mcp-worker.js",
+    "test": "node --check tastytrade-mcp-worker.js && node --test test/worker.test.mjs",
+    "demo": "node demo.mjs",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
+  }
+}

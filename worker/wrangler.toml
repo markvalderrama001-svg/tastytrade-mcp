@@ -1,0 +1,12 @@
+# Placeholder config. Rename `name` if you like; your workers.dev subdomain is
+# set on your own Cloudflare account, not here. No account IDs are committed.
+name = "tastytrade-mcp"
+main = "tastytrade-mcp-worker.js"
+compatibility_date = "2025-01-01"
+# account_id = "<your-cloudflare-account-id>"   # optional; wrangler login is enough
+
+[vars]
+# Safety switch. Keep "false" until the whole tool is proven end to end.
+# Secrets (TASTY_CLIENT_SECRET, TASTY_REFRESH_TOKEN, MCP_AUTH_TOKEN) are NOT set
+# here. Add them with `npx wrangler secret put NAME` or in the dashboard.
+LIVE_TRADING_ENABLED = "false"

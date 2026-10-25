@@ -1,0 +1,13 @@
+{
+  "data": {
+    "order": { "status": "Received", "price": "3.20", "price-effect": "Credit" },
+    "buying-power-effect": {
+      "change-in-buying-power": "18680.00",
+      "change-in-buying-power-effect": "Debit",
+      "current-buying-power": "50000.00",
+      "new-buying-power": "31320.00"
+    },
+    "fee-calculation": { "total-fees": "1.14", "total-fees-effect": "Debit" },
+    "warnings": [{ "code": "synthetic_warning", "message": "Synthetic fixture: no real account data." }]
+  }
+}

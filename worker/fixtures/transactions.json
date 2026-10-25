@@ -1,0 +1,16 @@
+{
+  "_comment": "Synthetic transaction history. Symbols are generic large caps; prices and fees are made up.",
+  "data": {
+    "items": [
+      { "transaction-type": "Trade", "action": "Buy to Close", "symbol": "AAPL  261218P00185000", "underlying-symbol": "AAPL", "instrument-type": "Equity Option", "quantity": "1", "price": "0.80", "value": "80.00", "value-effect": "Debit", "net-value": "81.14", "net-value-effect": "Debit", "executed-at": "2026-11-20T15:30:00.000+00:00", "order-id": 900102 },
+      { "transaction-type": "Trade", "action": "Sell to Open", "symbol": "AAPL  261218P00185000", "underlying-symbol": "AAPL", "instrument-type": "Equity Option", "quantity": "1", "price": "3.20", "value": "320.00", "value-effect": "Credit", "net-value": "318.86", "net-value-effect": "Credit", "executed-at": "2026-10-26T14:45:00.000+00:00", "order-id": 900101 },
+      { "transaction-type": "Trade", "action": "Sell to Close", "symbol": "MSFT", "underlying-symbol": "MSFT", "instrument-type": "Equity", "quantity": "10", "price": "410.00", "value": "4100.00", "value-effect": "Credit", "net-value": "4099.95", "net-value-effect": "Credit", "executed-at": "2026-10-20T19:00:00.000+00:00", "order-id": 900202 },
+      { "transaction-type": "Trade", "action": "Buy to Open", "symbol": "MSFT", "underlying-symbol": "MSFT", "instrument-type": "Equity", "quantity": "10", "price": "400.00", "value": "4000.00", "value-effect": "Debit", "net-value": "4000.00", "net-value-effect": "Debit", "executed-at": "2026-10-06T14:00:00.000+00:00", "order-id": 900201 },
+      { "transaction-type": "Trade", "action": "Sell to Open", "symbol": "KO    261218C00070000", "underlying-symbol": "KO", "instrument-type": "Equity Option", "quantity": "2", "price": "0.95", "value": "190.00", "value-effect": "Credit", "net-value": "187.72", "net-value-effect": "Credit", "executed-at": "2026-10-10T15:00:00.000+00:00", "order-id": 900301 },
+      { "transaction-type": "Trade", "action": "Buy to Open", "symbol": "JPM", "underlying-symbol": "JPM", "instrument-type": "Equity", "quantity": "2", "price": "240.00", "value": "480.00", "value-effect": "Debit", "net-value": "480.00", "net-value-effect": "Debit", "executed-at": "2026-10-01T14:00:00.000+00:00", "order-id": 900401 },
+      { "transaction-type": "Trade", "action": "Sell to Close", "symbol": "JPM", "underlying-symbol": "JPM", "instrument-type": "Equity", "quantity": "1", "price": "250.00", "value": "250.00", "value-effect": "Credit", "net-value": "250.00", "net-value-effect": "Credit", "executed-at": "2026-10-15T14:00:00.000+00:00", "order-id": 900402 },
+      { "transaction-type": "Money Movement", "action": null, "symbol": "KO", "underlying-symbol": "KO", "instrument-type": "Equity", "quantity": "0", "price": null, "value": "12.00", "value-effect": "Credit", "net-value": "12.00", "net-value-effect": "Credit", "executed-at": "2026-10-12T12:00:00.000+00:00", "transaction-sub-type": "Dividend" }
+    ]
+  },
+  "pagination": { "total-items": 8 }
+}

@@ -1,0 +1,30 @@
+{
+  "data": {
+    "items": [
+      {
+        "underlying-symbol": "AAPL",
+        "root-symbol": "AAPL",
+        "expirations": [
+          {
+            "expiration-date": "2026-12-18",
+            "days-to-expiration": 54,
+            "strikes": [
+              { "strike-price": "180.0", "call": "AAPL  261218C00180000", "put": "AAPL  261218P00180000", "call-streamer-symbol": ".AAPL261218C180", "put-streamer-symbol": ".AAPL261218P180" },
+              { "strike-price": "185.0", "call": "AAPL  261218C00185000", "put": "AAPL  261218P00185000", "call-streamer-symbol": ".AAPL261218C185", "put-streamer-symbol": ".AAPL261218P185" },
+              { "strike-price": "190.0", "call": "AAPL  261218C00190000", "put": "AAPL  261218P00190000", "call-streamer-symbol": ".AAPL261218C190", "put-streamer-symbol": ".AAPL261218P190" },
+              { "strike-price": "195.0", "call": "AAPL  261218C00195000", "put": "AAPL  261218P00195000", "call-streamer-symbol": ".AAPL261218C195", "put-streamer-symbol": ".AAPL261218P195" },
+              { "strike-price": "200.0", "call": "AAPL  261218C00200000", "put": "AAPL  261218P00200000", "call-streamer-symbol": ".AAPL261218C200", "put-streamer-symbol": ".AAPL261218P200" }
+            ]
+          },
+          {
+            "expiration-date": "2027-01-15",
+            "days-to-expiration": 82,
+            "strikes": [
+              { "strike-price": "190.0", "call": "AAPL  270115C00190000", "put": "AAPL  270115P00190000", "call-streamer-symbol": ".AAPL270115C190", "put-streamer-symbol": ".AAPL270115P190" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

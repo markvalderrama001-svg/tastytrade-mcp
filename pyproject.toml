@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tastytrade-mcp"
+version = "1.0.0"
+description = "MCP server that gives Claude a brokerage account behind dry-run-first order controls: an operator switch plus a per-order confirmation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Mark Valderrama" }]
+dependencies = ["tastytrade>=12.0", "python-dotenv>=1.0", "mcp[cli]>=1.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "matplotlib>=3.8"]
+perf = ["matplotlib>=3.8"]
+
+[project.urls]
+Repository = "https://github.com/markvalderrama001-svg/tastytrade-mcp"
+
+[tool.setuptools]
+py-modules = ["server", "safety", "orders", "auth", "market", "scanner", "watchlists"]
+packages = ["performance"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

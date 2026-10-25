@@ -1,0 +1,6 @@
+strategy,trades,wins,win_rate_pct,realized_pnl,capital_deployed,ror_pct
+CSP,24,19,79.2,158.28,74700.0,0.21
+covered call,6,6,100.0,162.32,22900.0,0.71
+spread,5,3,60.0,-9.6,2097.8,-0.46
+LEAP,1,1,100.0,343.72,1241.14,27.69
+stock,1,1,100.0,142.5,3060.0,4.66

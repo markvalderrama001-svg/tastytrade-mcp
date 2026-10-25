@@ -1,0 +1,8 @@
+{
+  "_comment": "Synthetic dry-run response shaped like the Tastytrade SDK's PlacedOrderResponse. No real account data.",
+  "buying_power_effect": {
+    "change_in_buying_power": "-18750.00"
+  },
+  "warnings": ["Synthetic warning: order price is far from the market."],
+  "placed_order_id": 900001
+}

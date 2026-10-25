@@ -1,0 +1,7 @@
+# Copy to .dev.vars for `npx wrangler dev`. .dev.vars is gitignored.
+# Save WITHOUT a BOM (see worker/README.md).
+TASTY_CLIENT_SECRET=replace-me
+TASTY_REFRESH_TOKEN=replace-me
+# 32+ random characters, e.g. from: openssl rand -hex 32
+MCP_AUTH_TOKEN=replace-me
+LIVE_TRADING_ENABLED=false
